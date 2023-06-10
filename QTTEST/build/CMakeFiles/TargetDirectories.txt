@@ -1,0 +1,3 @@
+/workspace/some-ip/QTTEST/build/CMakeFiles/demo.dir
+/workspace/some-ip/QTTEST/build/CMakeFiles/edit_cache.dir
+/workspace/some-ip/QTTEST/build/CMakeFiles/rebuild_cache.dir

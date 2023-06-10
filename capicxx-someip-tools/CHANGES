@@ -1,0 +1,29 @@
+Changes
+=======
+
+v3.2.0
+- Adapted to CommonAPI 3.2.0
+- Upgrade to Franca 0.13.1
+- Updated xtend to v2.20.0
+- Fix missing generation dependency for arrays
+- Add generation of includes for maps
+- Improve handling of derived enumerations
+
+v3.1.12
+- Improve deployment validator
+- Support inline array deployments
+- Add deployment and robustness tests
+- Fix usage of SomeIPStructStructLengthWidth deployment
+
+v3.1.11
+- Validate array deployment parameters
+- Create deep copy of passed receiver list when firing selective
+  broadcasts
+
+v3.1.10
+- Upgrade to JDK-1.8.
+- Explicitely set visibility for the deployments to enable linkage after compilation with -fvisibility=hidden.
+- Added new deployment parameter CRCWidth for attributes, broadcasts and methods.
+- Added config file to run tests with security. All clients are allowed to do everything and "credentials" (uid/gid) may need to be adjusted in order to run tests on different platforms depending on which user/group the tests started from.
+- Added filter in validator to avoid validation of interfaces deployed for the core or dbus.
+
